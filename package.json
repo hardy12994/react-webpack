@@ -22,8 +22,8 @@
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
-    "build":"webpack && cp src/index.html  dist/index.html",
-    "process": "webpack-dev-server --content-base ./dist --inline --hot",
+    "build": "webpack && cp src/index.html  dist/index.html",
+    "dev:process": "./node_modules/.bin/webpack-dev-server --content-base ./dist --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
